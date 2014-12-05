@@ -12,6 +12,9 @@ gem 'bootstrap-will_paginate', '0.0.9'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'spork-rails', '4.0.0' 
+  
+  
 end
 
 group :test do
@@ -19,6 +22,7 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.0'
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  
 end
 
 gem 'sass-rails', '4.0.1'
