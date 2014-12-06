@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 	describe "StaticPages" do
-# <<<<<<< HEAD
+<<<<<<< HEAD
 		describe "Home page" do
 		it "should have the content 'Sample App'" do
 			visit '/static_pages/home' 
@@ -44,7 +44,6 @@ require 'spec_helper'
 			visit '/static_pages/about' 
 			expect(page).to have_title("Ruby on Rails Tutorial Sample App | About Us")
 		end 
-	end
 
 		# subject { page }
 
@@ -88,7 +87,7 @@ require 'spec_helper'
 # >>>>>>> filling-in-layout
 	# end
 
- end
+# end
 
 
 
