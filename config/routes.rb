@@ -1,5 +1,5 @@
 CourseManagement::Application.routes.draw do
-<<<<<<< HEAD
+# <<<<<<< HEAD
  
   get "users/new"
  root 'static_pages#home' 
@@ -8,21 +8,20 @@ CourseManagement::Application.routes.draw do
  match '/about', to: 'static_pages#about', via: 'get' 
  match '/contact', to: 'static_pages#contact', via: 'get'
   match '/new', to: 'static_pages#new', via: 'get'
-=======
-  get "users/new"
-  root 'static_pages#home'  
-  match '/signup', to: 'users#new', via: 'get'
-  match '/help', to: 'static_pages#help', via: 'get'
-  match '/about', to: 'static_pages#about', via: 'get' 
-  match '/contact', to: 'static_pages#contact', via: 'get'
- # get "users/new"
- # root 'static_pages#home' 
+# =======
+  # get "users/new"
+  # root 'static_pages#home'  
+  # match '/signup', to: 'users#new', via: 'get'
+  # match '/help', to: 'static_pages#help', via: 'get'
+  # match '/about', to: 'static_pages#about', via: 'get' 
+  # match '/contact', to: 'static_pages#contact', via: 'get'
 
- # match '/help', to: 'static_pages#help', via: 'get'
- # match '/about', to: 'static_pages#about', via: 'get' 
- # match '/contact', to: 'static_pages#contact', via: 'get'
-  # match '/new', to: 'static_pages#new', via: 'get'
->>>>>>> modeling-users
+
+ # # match '/help', to: 'static_pages#help', via: 'get'
+ # # match '/about', to: 'static_pages#about', via: 'get' 
+ # # match '/contact', to: 'static_pages#contact', via: 'get'
+  # # match '/new', to: 'static_pages#new', via: 'get'
+# >>>>>>> modeling-users
  
  # You can have the root of your site routed with "root" 
  # root 'welcome#index
