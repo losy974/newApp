@@ -1,10 +1,10 @@
 require 'spec_helper'
 
 describe User do
-<<<<<<< HEAD
-  pending "add some examples to (or delete) #{__FILE__}"
-end
-=======
+# <<<<<<< HEAD
+  # pending "add some examples to (or delete) #{__FILE__}"
+# end
+# =======
   before do 
 	  @user = User.new(name: "Example User", email: "user@example.com", 
 	  password: "foobar", password_confirmation: "foobar") 
@@ -94,7 +94,6 @@ describe "with invalid password" do
 
 
 
-end 
  
- 
->>>>>>> modeling-users
+#>>>>>>> modeling-users
+end
